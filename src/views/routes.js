@@ -99,6 +99,7 @@ export default [
 
           r('system.permissions', 'permissions', 'System/Permissions/Index'),
           r('system.automation', 'automation', 'System/Automation/Index'),
+          r('system.auditlog', 'auditlog', 'System/Auditlog/Index'),
         ],
       },
 

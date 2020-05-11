@@ -61,6 +61,13 @@
         :to="{ name: 'system.automation' }"
         :icon="['fas', 'cogs']"
       />
+
+      <c-main-nav-item
+        v-if="canGrant.system"
+        :label="$t('system.auditlog:navItem.label')"
+        :to="{ name: 'system.auditlog' }"
+        :icon="['fas', 'cogs']"
+      />
     </b-list-group>
 
     <b-list-group
